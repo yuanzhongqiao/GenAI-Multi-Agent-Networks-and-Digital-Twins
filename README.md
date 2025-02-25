@@ -1,257 +1,239 @@
-# Motivations
-
-How is AI changing humanity? This course explores the realities of labor, knowledge work, and automation. Can the current generation of rapidly improving autonomous AI agents collaboratively (or independently) craft novels, social media political campaigns, commercial brand marketing strategies, financial analyst reports, software apps, music videos, or write original scientific research papers? For those with basic Python skills and advanced curiosity, get hands-on experience building your own personal digital twin and a peek into the future.
-
-# Requirements, Philosophy, and Project-Based Learning
-
-Although helpful, no maths beyond HS and introductory Python are essential. Unlike traditional CS/AI courses, we do not build from the bottom-up starting with comprehensive theory. Instead, we follow a top-down approach starting with real-world problems at a high-level of abstraction. We present an intellectual framework for each student to understand the underlying theory according to their individual preparation and perspectives.
-
-Rapid AI progress paradoxically makes AI research both more complex and accessible. Traditional narrow AI research is rapidly advancing, papers have been exponentially growing in number, and expertise is becoming more specialized and/or deep. Conversely, human-centered AI applications have become more performant, easy to develop, and focused on domain expertise rather than specialized technical knowledge. Our goal is to train emerging experts from all fields to systematically, creatively and iteratively think in precise, comprehensive, and quantifiable terms that can translate ideas into well-designed and high-impact AI applications.  
-
-Learning and projects are customized to each student’s individual background, domain expertise, as well as current and future interests. Students from diverse fields fill in knowledge gaps and foster cross-pollination of ideas and insights. By the end of the course, every student should have an online digital portfolio of 4 industry standard AI projects and one original research project for future work or grad school reference.
-
-More details on our human-centered AI curriculum, research and previous student research projects [here](https://github.com/jon-chun#mentored-research) and at [digital.kenyon.edu/dh](https://digital.kenyon.edu/dh/).
-
-# Fee
-
-* No textbooks, instead, ~$100-$150 in cloud subscriptions
-  * $20/mo OpenAI ChatGPT
-  * $10/mo Google Colab 
-  * API usage fees
-(IPHS can provide assistance if necessary)
-
-# Syllabus
-
-[IPHS 391 Syllabus in PDF](syllabus_iphs391_frontiers_in_genai_2024fall_chunj.pdf)
-
-# IPHS 391: Frontiers in Generative AI
-
-This is an upper-division course offers an in-depth exploration of advanced AI concepts, focusing on interdisciplinary applications of large language models, AI information systems, and autonomous agents. Students will engage with a progressive curriculum, starting with a review of Python and a series of four hands-on projects, equipping them with the skills and knowledge necessary to innovate in the rapidly evolving field of artificial intelligence.
-
-## Course Details
-
-* Instructor:** Jon Chun
-  * Office Hours: Thur 11-1pm or by appt.
-  * [chunj@kenyon.edu](mailto:chunj@kenyon.edu)
-  * [Personal Webpage](https://github.com/jon-chun)
-* Institution:** Kenyon College
-* Term:** Fall 2024
-* Schedule:** Wednesday Evenings 7pm-10pm
-* Location:** Timberlake #5 (Evans Conference Rm)
-* Credit:** 0.5/4
-* Section:** 00
-* CRN:** 80044
-* Class Size:** 15
-* Prerequisites:** Introductory Python programming experience
-
-## Course Outline
-
-### Week 1-3: OpenAI API Function Calling App
-
-#### Learning Goals
-
-- Understand the basics of AI and its applications
-- Learn to use Python and Prompt Engineering with the OpenAI API
-- Develop a basic function-calling application
-
-#### Description
-
-Introduction to AI concepts and OpenAI API. Students will learn about GPT models and create a simple chatbot with distinct persona and memory capabilities.
-
-#### Detailed Content
-
-NOTE: Content will be added each week for Fall 2024
-
-* [**SETUP:** Required AI Signups and Setups](./modules/signups_setups.md) (Open)
-* [**Week 1:** Introduction and AI Overview](./modules/week1_ai_overview.md) (Abierta)
-* [**Week 2:** Prompt Engineering and OpenAI API](./modules/week2_prompting.md) (Ouvrir)
-* [**Week 3:** Miniproject 1: Chatbots](./modules/week3_miniproject1_chatbot.md) (Offen)
-
-#### Reflection Questions
-
-1. How do API function calls enhance the capabilities of language models?
-2. What are the ethical considerations when designing AI chatbots with personas?
-3. How might this technology impact various industries?
-4. What are the potential risks of relying too heavily on AI-generated content?
-5. How does the concept of "prompt engineering" relate to working with language models?
-6. In what ways could function calling be used to make AI systems more controllable?
-7. How might the widespread use of AI chatbots affect human communication skills?
-8. What are the implications of AI systems having short-term and long-term memory?
-9. How could this technology be misused, and what safeguards might be necessary?
-10. How does the development of AI chatbots relate to the Turing test?
-
-### Week 4-6: Embeddings and Explainability
-
-#### Learning Goals
-
-* Understand embeddings and their role in language models
-* Learn to apply embeddings in AI applications
-* Explore methods for AI explainability
-
-#### Description
-
-Deep dive into embeddings, their applications, and techniques for making AI models more interpretable and explainable.
-
-#### Detailed Content
-
-* [**Week 4:** Embeddings](./modules/week4_embeddings.md) (открыть)
-* [**Week 5:** Models](./modules/week5_models.md) (開ける)
-* [**Week 6:** Miniproject 2: Gradio AI App](./modules/week6_miniproject2_gradio_ai_app.md) (باز کردن)
-
-#### Reflection Questions
-
-1. How do embeddings capture semantic meaning in language?
-2. What are the challenges in making complex AI models explainable?
-3. How might improved AI explainability impact fields like healthcare or criminal justice?
-4. What are the ethical implications of using AI systems that can't be fully explained?
-5. How do embeddings differ across languages, and what are the implications for multilingual AI?
-6. In what ways could explainable AI help build trust between humans and AI systems?
-7. How might embeddings be used in fields outside of natural language processing?
-8. What are the limitations of current explainability techniques in AI?
-9. How could explainable AI impact the development of AI regulations and policies?
-10. What role does bias play in embeddings, and how can it be mitigated?
-
-### Week 7-9: RAG Application using Langchain
-
-#### Learning Goals
-
-* Understand Retrieval-Augmented Generation (RAG)
-* Learn to use Langchain for RAG applications
-* Implement a RAG system to enhance language model capabilities
-
-#### Description
-
-Introduction to RAG and its implementation using Langchain. Students will create applications that combine the power of language models with external knowledge sources.
-
-#### Detailed Content
-
-* [**Week 7:** Retrieval-Augmented Generation (RAG)](./modules/week7_rag.md) (membuka)
-* [**Week 8:** Agents: Langchain 1](./modules/week8_langchain1.md) (उद्घाटित)
-* [**Week 9:** Agents: Langchain 2](./modules/week9_langchain2.md) (aperta)
-* [**Week 10:** Miniproject 3: Agents](./modules/week10_miniproject3_langchain.md) (wazi)
-
-#### Reflection Questions
-
-1. How does RAG improve the accuracy and reliability of language models?
-2. What are the potential applications of RAG in research and industry?
-3. How might RAG systems impact the spread of misinformation?
-4. What are the privacy concerns associated with RAG systems that access external data?
-5. How does RAG compare to fine-tuning as a method for improving language model performance?
-6. In what ways could RAG be used to make AI systems more up-to-date and relevant?
-7. What are the computational challenges of implementing RAG at scale?
-8. How might RAG systems change the way we interact with and consume information?
-9. What ethical considerations should be taken into account when designing RAG systems?
-10. How could RAG technology be used to create more personalized AI experiences?
-
-### Week 10-12: Autonomous Multi-Agent Simulations and Benchmarking
-
-#### Learning Goals
-
-* Understand the principles of multi-agent systems
-* Learn to design and implement autonomous agent simulations
-* Develop skills in benchmarking and analyzing multi-agent systems
-
-#### Description
-
-Exploration of autonomous multi-agent systems, their simulation, and benchmarking. Students will create complex simulations to model real-world scenarios.
-
-#### Detailed Content
-
-* [**Week 11:** Multi-Agents: CrewAI #1](./modules/week11_multiagents.md) (irekita)
-* [**Week 12:** Multi-Agents: CrewAI #2](./modules/week12_miniproject4_multiagents.md) (עפענען)
-* [**Week 13:** Miniproject 4: Multi-Agent Simulations](./modules/week13_ai_now.md) (waach')
-
-#### Reflection Questions
-
-1. How do multi-agent systems model complex social interactions?
-2. What are the challenges in designing truly autonomous agents?
-3. How might multi-agent simulations be used to inform policy decisions?
-4. What are the ethical implications of using AI agents to simulate human behavior?
-5. How could multi-agent systems be used to solve real-world coordination problems?
-6. What are the limitations of current multi-agent simulation technologies?
-7. How might the principles of multi-agent systems apply to fields like economics or ecology?
-8. What role could multi-agent simulations play in future AI safety research?
-9. How do the concepts of cooperation and competition manifest in multi-agent systems?
-10. What are the potential risks of relying on multi-agent simulations for decision-making?
-
-### Week 13-15: Final Project Development and Presentation
-
-#### Learning Goals
-
-* Apply learned concepts to a comprehensive AI project
-* Develop project management and presentation skills
-* Synthesize technical knowledge with real-world applications
-
-#### Description
-
-Students will finalize and present their semester-long projects, demonstrating their understanding and application of the course material.
-
-#### Detailed Content
-
-* [**Week 14:** Final Development, Testing, and Refinement of Semester Projects](./modules/week14_ai_future.md) (obèrt)
-* [**Week 15:** Final Project Presentations and Course Wrap-up](./modules/oh_noes_404.md)
-
-#### Reflection Questions
-
-1. How can AI technologies be combined to solve complex, real-world problems?
-2. What are the ethical considerations in deploying your AI solution?
-3. How might your project evolve with future advancements in AI?
-4. What were the most significant challenges you faced in your project, and how did you overcome them?
-5. How does your project contribute to the broader field of AI or its applications?
-6. What potential societal impacts could your project have if implemented at scale?
-7. How did the interdisciplinary nature of the course influence your project design?
-8. What aspects of AI development did you find most surprising or counterintuitive?
-9. How has this project changed your perspective on the future of AI?
-10. What further research or development would you propose as a next step for your project?
-
-## Grading and Projects
-
-* Class Participation: 20%
-* Weekly Quizzes: 30%
-* 4 Mini-Projects: 30%
-* 1 Final Main Project: 20%
-
-### Mini-Projects
-
-1. OpenAI API Function Calling Chat App
-2. Embeddings and Explainability with Huggingface
-3. RAG Application using Langchain
-4. Autonomous Multi-Agent Simulations
-
-### Final Project Submission Requirements
-
-An original interdisciplinary research project applying at least one key technology covered in the 4 mini-projects.
-
-Final projects are due today Wednesday, December 18, 2024 by 6:30pm per the official Kenyon 2024 Exam Week Schedule. You may request an extension until Friday at noon but no later.
-
-1. Please email me the following 2 parts for your Project for grading:
-
-* Your carefully proof-read poster in *.ppt (MS PowerPoint format NOT PDF)
-* Your code (to verify originality/plagiarism check) (e.g. a colab notebook or github repo)
-* Any data required to successfully run and test your programs (e.g. *.csv structured tables for SML or *.pdf unstructured documents for RAG)
-
-2. If your code is based upon one of the many agentic tutorials/examples out there:
-
-* Cite this in your references
-* Explain this in your poster and explain how you modified, extended, or otherwise customized it (e.g. unique dataset, prompts, agents, tools, etc)
-
-3. If you used AI to help write your poster, please note that in the credits for transparency (and do not have AI write the poster for you)
-
-4. Please do a final check on Moodle.kenyon.edu to ensure all your grades, quizzes, presentations, etc have been accurately recorded.
-
-For detailed project descriptions and grading rubrics, please refer to the individual module files.
-
-# IPHS200: Programming Humanity Exercises
-
-## Diachronic Sentiment Analysis
-
-* [SentimentArcs Simplified (10 Dec 2024)](./code/notebooks/sentimentarcs_supersimplified_20241210.ipynb)
-
-## Topic Modeling
-
-NOTE: Be sure to: (a) create a Kaggle account with your non-Kenyon gmail.com account if you don't have one already, (b) [Copy and Edit] to make you own personal copy.
-
-* [Topic Modeling (30 Oct 2024)](https://www.kaggle.com/code/asadozzaman/topic-modeling-in-nlp-with-abc-news-sample)
-  * (slight edit/fixes) [Colab](./code/notebooks/nlp_Topic_Modeling_in_NLP_with_ABC_news_sample_20241110.ipynb)
-  * (slight edit/fixes) [Colab with Button](./code/notebooks/nlp_Topic_Modeling_in_NLP_with_ABC_news_sample_20241111.ipynb)
-  
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned undefined" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4673864" _msthash="243">动机</h1><a id="user-content-motivations" class="anchor" aria-label="永久链接： 动机" href="#motivations" _mstaria-label="486668" _msthash="244"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="4669705703" _msthash="245">AI 如何改变人类？本课程探讨劳动、知识工作和自动化的现实情况。当前这一代快速改进的自主 AI 代理能否协作（或独立）制作小说、社交媒体政治活动、商业品牌营销策略、金融分析师报告、软件应用程序、音乐视频或撰写原创科学研究论文？对于具有基本 Python 技能和高度好奇心的人，可以获得构建自己的个人数字孪生的实践经验，并一窥未来。</p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="56820400" _msthash="246">要求、理念和基于项目的学习</h1><a id="user-content-requirements-philosophy-and-project-based-learning" class="anchor" aria-label="永久链接：要求、理念和基于项目的学习" href="#requirements-philosophy-and-project-based-learning" _mstaria-label="2670577" _msthash="247"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="3546149477" _msthash="248">虽然有帮助，但除了 HS 和 Python 入门之外，没有其他数学是必需的。与传统的 CS/AI 课程不同，我们不是从综合理论开始自下而上构建。相反，我们遵循一种自上而下的方法，从高抽象层次的实际问题开始。我们为每个学生提供了一个知识框架，让他们根据自己的个人准备和观点来理解基本理论。</p>
+<p dir="auto" _msttexthash="6754598123" _msthash="249">自相矛盾的是，AI 的快速发展使 AI 研究变得更加复杂和容易获得。传统的狭义 AI 研究正在迅速发展，论文数量呈指数级增长，专业知识变得更加专业和/或深入。相反，以人为中心的 AI 应用程序已经变得性能更高、易于开发，并且专注于领域专业知识而不是专业知识。我们的目标是培养来自各个领域的新兴专家，以精确、全面和可量化的方式系统、创造性和迭代地思考，从而将想法转化为精心设计和高影响力的 AI 应用程序。</p>
+<p dir="auto" _msttexthash="3418364131" _msthash="250">学习和项目是根据每个学生的个人背景、领域专业知识以及当前和未来的兴趣定制的。来自不同领域的学生填补了知识空白，并促进了思想和见解的交叉传播。在课程结束时，每个学生都应该有一个在线数字作品集，其中包含 4 个行业标准的 AI 项目和一个原创研究项目，以供将来工作或研究生院参考。</p>
+<p dir="auto" _msttexthash="393122808" _msthash="251">有关我们以人为本的 AI 课程、研究和以前的学生研究项目的更多详细信息<a href="https://github.com/jon-chun#mentored-research" _istranslated="1">，请点击此处</a>和 <a href="https://digital.kenyon.edu/dh/" rel="nofollow" _istranslated="1">digital.kenyon.edu/dh</a>。</p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="3289923" _msthash="252">费</h1><a id="user-content-fee" class="anchor" aria-label="永久链接：费用" href="#fee" _mstaria-label="210756" _msthash="253"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="95267458" _msthash="254">没有教科书，而是 ~100-150 美元的云订阅</font><ul dir="auto">
+<li _msttexthash="10940319" _msthash="255">20 美元/月 OpenAI ChatGPT</li>
+<li _msttexthash="10910445" _msthash="256">10 美元/月 Google Colab</li>
+<li _msttexthash="123546332" _msthash="257">API 使用费
+（如有需要，IPHS 可提供协助）</li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11681098" _msthash="258">教学大纲</h1><a id="user-content-syllabus" class="anchor" aria-label="永久链接：教学大纲" href="#syllabus" _mstaria-label="373490" _msthash="259"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/syllabus_iphs391_frontiers_in_genai_2024fall_chunj.pdf" _msttexthash="21312057" _msthash="260">IPHS 391 教学大纲 PDF</a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="50026119" _msthash="261">IPHS 391：生成式 AI 的前沿</h1><a id="user-content-iphs-391-frontiers-in-generative-ai" class="anchor" aria-label="永久链接：IPHS 391：生成式 AI 前沿" href="#iphs-391-frontiers-in-generative-ai" _mstaria-label="1373203" _msthash="262"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="2310796657" _msthash="263">这是一门高级课程，深入探索高级 AI 概念，侧重于大型语言模型、AI 信息系统和自主代理的跨学科应用。学生将参与渐进式课程，从 Python 回顾和一系列四个实践项目开始，使他们具备在快速发展的人工智能领域进行创新所需的技能和知识。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="13921258" _msthash="264">课程详情</h2><a id="user-content-course-details" class="anchor" aria-label="永久链接：课程详情" href="#course-details" _mstaria-label="548158" _msthash="265"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="13546715" _msthash="266">讲师：** Jon Chun</font><ul dir="auto">
+<li _msttexthash="58830928" _msthash="267">办公时间： 周四 11-1pm 或预约。</li>
+<li><a href="mailto:chunj@kenyon.edu" _msttexthash="304694" _msthash="268">chunj@kenyon.edu</a></li>
+<li><a href="https://github.com/jon-chun" _msttexthash="12804077" _msthash="269">个人网页</a></li>
+</ul>
+</li>
+<li _msttexthash="37137698" _msthash="270">机构：** 凯尼恩学院</li>
+<li _msttexthash="29956563" _msthash="271">学期：** 2024 年秋季</li>
+<li _msttexthash="35679579" _msthash="272">时间表：** 周三晚上 7pm-10pm</li>
+<li _msttexthash="81430557" _msthash="273">地点名称：** Timberlake #5 （Evans Conference Rm）</li>
+<li _msttexthash="12677184" _msthash="274">信用：** 0.5/4</li>
+<li _msttexthash="9856860" _msthash="275">节：** 00</li>
+<li _msttexthash="8575957" _msthash="276">CRN：** 80044</li>
+<li _msttexthash="20703436" _msthash="277">每班人数：** 15</li>
+<li _msttexthash="76692473" _msthash="278">先决条件：** Python 编程入门经验</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="13397241" _msthash="279">课程大纲</h2><a id="user-content-course-outline" class="anchor" aria-label="永久链接： 课程大纲" href="#course-outline" _mstaria-label="555607" _msthash="280"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="69737174" _msthash="281">第 1-3 周：OpenAI API 函数调用应用</h3><a id="user-content-week-1-3-openai-api-function-calling-app" class="anchor" aria-label="永久链接：第 1-3 周：OpenAI API 函数调用应用" href="#week-1-3-openai-api-function-calling-app" _mstaria-label="1593371" _msthash="282"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11240086" _msthash="283">学习目标</h4><a id="user-content-learning-goals" class="anchor" aria-label="永久链接：学习目标" href="#learning-goals" _mstaria-label="543127" _msthash="284"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="54812875" _msthash="285">了解 AI 及其应用的基础知识</li>
+<li _msttexthash="83724017" _msthash="286">通过 OpenAI API 学习使用 Python 和提示工程</li>
+<li _msttexthash="59840963" _msthash="287">开发基本的函数调用应用程序</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="288">描述</h4><a id="user-content-description" class="anchor" aria-label="永久链接：描述" href="#description" _mstaria-label="480597" _msthash="289"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="462067957" _msthash="290">AI 概念和 OpenAI API 简介。学生将学习 GPT 模型并创建一个具有不同角色和记忆功能的简单聊天机器人。</p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12128493" _msthash="291">详细内容</h4><a id="user-content-detailed-content" class="anchor" aria-label="永久链接：详细内容" href="#detailed-content" _mstaria-label="628043" _msthash="292"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="81028987" _msthash="293">注意：2024 年秋季每周都会添加内容</p>
+<ul dir="auto">
+<li _msttexthash="109382884" _msthash="294"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/signups_setups.md" _istranslated="1"><strong _istranslated="1">设置：</strong>所需的 AI 注册和设置</a>（开放）</li>
+<li _msttexthash="76551540" _msthash="295"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week1_ai_overview.md" _istranslated="1"><strong _istranslated="1">第 1 周：</strong>简介和 AI 概述</a> （Abierta）</li>
+<li _msttexthash="85170345" _msthash="296"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week2_prompting.md" _istranslated="1"><strong _istranslated="1">第 2 周：</strong>提示工程和 OpenAI API</a> （Ouvrir）</li>
+<li _msttexthash="110898632" _msthash="297"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week3_miniproject1_chatbot.md" _istranslated="1"><strong _istranslated="1">第 3 周：</strong>小项目 1：聊天机器人</a> （Offen）</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14080157" _msthash="298">反思问题</h4><a id="user-content-reflection-questions" class="anchor" aria-label="永久链接：反思问题" href="#reflection-questions" _mstaria-label="831259" _msthash="299"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="112182044" _msthash="300">API 函数调用如何增强语言模型的功能？</li>
+<li _msttexthash="175966648" _msthash="301">设计具有角色的 AI 聊天机器人时有哪些道德考虑因素？</li>
+<li _msttexthash="71357325" _msthash="302">这项技术会如何影响各个行业？</li>
+<li _msttexthash="113934002" _msthash="303">过度依赖 AI 生成的内容有哪些潜在风险？</li>
+<li _msttexthash="206257207" _msthash="304">“prompt engineering” 的概念与使用语言模型有什么关系？</li>
+<li _msttexthash="140409360" _msthash="305">函数调用可以通过哪些方式使 AI 系统更易于控制？</li>
+<li _msttexthash="170282606" _msthash="306">AI 聊天机器人的广泛使用会如何影响人类的沟通技巧？</li>
+<li _msttexthash="110906159" _msthash="307">AI 系统具有短期和长期记忆有什么影响？</li>
+<li _msttexthash="193366420" _msthash="308">这项技术是如何被滥用的，可能需要采取哪些保护措施？</li>
+<li _msttexthash="126205820" _msthash="309">AI 聊天机器人的发展与图灵测试有什么关系？</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="55297723" _msthash="310">第 4-6 周：嵌入和可解释性</h3><a id="user-content-week-4-6-embeddings-and-explainability" class="anchor" aria-label="永久链接：第 4-6 周：嵌入和可解释性" href="#week-4-6-embeddings-and-explainability" _mstaria-label="1692288" _msthash="311"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11240086" _msthash="312">学习目标</h4><a id="user-content-learning-goals-1" class="anchor" aria-label="永久链接：学习目标" href="#learning-goals-1" _mstaria-label="543127" _msthash="313"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="70754281" _msthash="314">了解嵌入及其在语言模型中的作用</li>
+<li _msttexthash="67078934" _msthash="315">了解如何在 AI 应用程序中应用嵌入</li>
+<li _msttexthash="42526419" _msthash="316">探索 AI 可解释性的方法</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="317">描述</h4><a id="user-content-description-1" class="anchor" aria-label="永久链接：描述" href="#description-1" _mstaria-label="480597" _msthash="318"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="224761563" _msthash="319">深入了解嵌入、其应用以及使 AI 模型更具可解释性和可解释性的技术。</p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12128493" _msthash="320">详细内容</h4><a id="user-content-detailed-content-1" class="anchor" aria-label="永久链接：详细内容" href="#detailed-content-1" _mstaria-label="628043" _msthash="321"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="51104391" _msthash="322"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week4_embeddings.md" _istranslated="1"><strong _istranslated="1">第 4 周：</strong>嵌入</a> （открыть）</li>
+<li _msttexthash="59776405" _msthash="323"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week5_models.md" _istranslated="1"><strong _istranslated="1">第 5 周：</strong>模特</a> （開ける）</li>
+<li _msttexthash="146873675" _msthash="324"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week6_miniproject2_gradio_ai_app.md" _istranslated="1"><strong _istranslated="1">第 6 周：</strong>迷你项目 2：Gradio AI 应用程序</a> （باز کردن）</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14080157" _msthash="325">反思问题</h4><a id="user-content-reflection-questions-1" class="anchor" aria-label="永久链接：反思问题" href="#reflection-questions-1" _mstaria-label="831259" _msthash="326"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="82223518" _msthash="327">嵌入如何捕获语言中的语义含义？</li>
+<li _msttexthash="100028773" _msthash="328">使复杂的 AI 模型可解释面临哪些挑战？</li>
+<li _msttexthash="190091200" _msthash="329">改进的 AI 可解释性将如何影响医疗保健或刑事司法等领域？</li>
+<li _msttexthash="127902307" _msthash="330">使用无法完全解释的 AI 系统有哪些道德影响？</li>
+<li _msttexthash="145584530" _msthash="331">不同语言的嵌入有何不同，对多语言 AI 有何影响？</li>
+<li _msttexthash="224983902" _msthash="332">可解释的 AI 可以通过哪些方式帮助在人类和 AI 系统之间建立信任？</li>
+<li _msttexthash="125125780" _msthash="333">如何在自然语言处理之外的领域中使用嵌入？</li>
+<li _msttexthash="111057349" _msthash="334">当前 AI 中的可解释性技术有哪些局限性？</li>
+<li _msttexthash="116807938" _msthash="335">可解释的 AI 如何影响 AI 法规和政策的制定？</li>
+<li _msttexthash="102708931" _msthash="336">偏差在嵌入中起什么作用，如何减轻？</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="76887616" _msthash="337">第 7-9 周：使用 Langchain 的 RAG 应用程序</h3><a id="user-content-week-7-9-rag-application-using-langchain" class="anchor" aria-label="永久链接：第 7-9 周：使用 Langchain 的 RAG 应用程序" href="#week-7-9-rag-application-using-langchain" _mstaria-label="1727362" _msthash="338"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11240086" _msthash="339">学习目标</h4><a id="user-content-learning-goals-2" class="anchor" aria-label="永久链接：学习目标" href="#learning-goals-2" _mstaria-label="543127" _msthash="340"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="74402159" _msthash="341">了解 Retrieval-Augmented Generation （RAG）</li>
+<li _msttexthash="67595931" _msthash="342">了解如何将 Langchain 用于 RAG 应用程序</li>
+<li _msttexthash="72305181" _msthash="343">实施 RAG 系统以增强语言模型能力</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="344">描述</h4><a id="user-content-description-2" class="anchor" aria-label="永久链接：描述" href="#description-2" _mstaria-label="480597" _msthash="345"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="512577104" _msthash="346">介绍 RAG 及其使用 Langchain 的实现。学生将创建将语言模型的强大功能与外部知识源相结合的应用程序。</p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12128493" _msthash="347">详细内容</h4><a id="user-content-detailed-content-2" class="anchor" aria-label="永久链接：详细内容" href="#detailed-content-2" _mstaria-label="628043" _msthash="348"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="118754649" _msthash="349"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week7_rag.md" _istranslated="1"><strong _istranslated="1">第 7 周：</strong>检索增强生成 （RAG）</a> （membuka）</li>
+<li _msttexthash="96401916" _msthash="350"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week8_langchain1.md" _istranslated="1"><strong _istranslated="1">第 8 周：</strong>经纪人：Langchain 1</a> （उद्घाटित）</li>
+<li _msttexthash="79588119" _msthash="351"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week9_langchain2.md" _istranslated="1"><strong _istranslated="1">第 9 周：</strong>代理：Langchain 2</a> （aperta）</li>
+<li _msttexthash="92469091" _msthash="352"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week10_miniproject3_langchain.md" _istranslated="1"><strong _istranslated="1">第 10 周：</strong>小项目 3：代理</a> （wazi）</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14080157" _msthash="353">反思问题</h4><a id="user-content-reflection-questions-2" class="anchor" aria-label="永久链接：反思问题" href="#reflection-questions-2" _mstaria-label="831259" _msthash="354"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="122389540" _msthash="355">RAG 如何提高语言模型的准确性和可靠性？</li>
+<li _msttexthash="93962531" _msthash="356">RAG 在研究和工业中有哪些潜在应用？</li>
+<li _msttexthash="91569387" _msthash="357">RAG 系统如何影响错误信息的传播？</li>
+<li _msttexthash="166489830" _msthash="358">与访问外部数据的 RAG 系统相关的隐私问题是什么？</li>
+<li _msttexthash="177649290" _msthash="359">RAG 与作为提高语言模型性能的方法的微调相比如何？</li>
+<li _msttexthash="143038324" _msthash="360">RAG 可以通过哪些方式使 AI 系统更加最新和相关？</li>
+<li _msttexthash="87656491" _msthash="361">大规模实施 RAG 面临哪些计算挑战？</li>
+<li _msttexthash="156633269" _msthash="362">RAG 系统如何改变我们与信息交互和使用信息的方式？</li>
+<li _msttexthash="112262358" _msthash="363">在设计 RAG 系统时应考虑哪些道德因素？</li>
+<li _msttexthash="113033947" _msthash="364">如何使用 RAG 技术创建更加个性化的 AI 体验？</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="110270992" _msthash="365">第 10-12 周：自主多智能体仿真和基准测试</h3><a id="user-content-week-10-12-autonomous-multi-agent-simulations-and-benchmarking" class="anchor" aria-label="永久链接：第 10-12 周：自主多智能体模拟和基准测试" href="#week-10-12-autonomous-multi-agent-simulations-and-benchmarking" _mstaria-label="3491514" _msthash="366"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11240086" _msthash="367">学习目标</h4><a id="user-content-learning-goals-3" class="anchor" aria-label="永久链接：学习目标" href="#learning-goals-3" _mstaria-label="543127" _msthash="368"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="41396316" _msthash="369">了解多代理系统的原理</li>
+<li _msttexthash="57536089" _msthash="370">学习设计和实施自主代理模拟</li>
+<li _msttexthash="128003252" _msthash="371">培养对多智能体系统进行基准测试和分析的技能</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="372">描述</h4><a id="user-content-description-3" class="anchor" aria-label="永久链接：描述" href="#description-3" _mstaria-label="480597" _msthash="373"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="390659256" _msthash="374">探索自主多智能体系统、它们的模拟和基准测试。学生将创建复杂的模拟来模拟现实世界的场景。</p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12128493" _msthash="375">详细内容</h4><a id="user-content-detailed-content-3" class="anchor" aria-label="永久链接：详细内容" href="#detailed-content-3" _mstaria-label="628043" _msthash="376"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="88094487" _msthash="377"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week11_multiagents.md" _istranslated="1"><strong _istranslated="1">第 11 周：</strong>多代理：CrewAI #1</a> （irekita）</li>
+<li _msttexthash="90204322" _msthash="378"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week12_miniproject4_multiagents.md" _istranslated="1"><strong _istranslated="1">第 12 周：</strong>多代理：CrewAI #2</a> （עפענען）</li>
+<li _msttexthash="128880687" _msthash="379"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week13_ai_now.md" _istranslated="1"><strong _istranslated="1">第 13 周：</strong>小项目 4：多智能体模拟</a> （waach'）</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14080157" _msthash="380">反思问题</h4><a id="user-content-reflection-questions-3" class="anchor" aria-label="永久链接：反思问题" href="#reflection-questions-3" _mstaria-label="831259" _msthash="381"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="137143149" _msthash="382">多智能体系统如何对复杂的社交互动进行建模？</li>
+<li _msttexthash="91164177" _msthash="383">设计真正的自主代理面临哪些挑战？</li>
+<li _msttexthash="119897583" _msthash="384">如何使用多智能体模拟为政策决策提供信息？</li>
+<li _msttexthash="126342983" _msthash="385">使用 AI 代理模拟人类行为的道德影响是什么？</li>
+<li _msttexthash="169002899" _msthash="386">如何使用多智能体系统来解决现实世界的协调问题？</li>
+<li _msttexthash="96859620" _msthash="387">当前多智能体仿真技术有哪些局限性？</li>
+<li _msttexthash="180889605" _msthash="388">多智能体系统的原则如何应用于经济学或生态学等领域？</li>
+<li _msttexthash="165272302" _msthash="389">多智能体模拟在未来的 AI 安全研究中可以发挥什么作用？</li>
+<li _msttexthash="152376484" _msthash="390">合作和竞争的概念在多智能体系统中是如何体现的？</li>
+<li _msttexthash="143343447" _msthash="391">依赖多智能体模拟进行决策的潜在风险是什么？</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="80988843" _msthash="392">第 13-15 周：最终项目开发和演示</h3><a id="user-content-week-13-15-final-project-development-and-presentation" class="anchor" aria-label="永久链接：第 13-15 周：最终项目开发和演示" href="#week-13-15-final-project-development-and-presentation" _mstaria-label="2693119" _msthash="393"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="11240086" _msthash="394">学习目标</h4><a id="user-content-learning-goals-4" class="anchor" aria-label="永久链接：学习目标" href="#learning-goals-4" _mstaria-label="543127" _msthash="395"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="71546956" _msthash="396">将学到的概念应用于全面的 AI 项目</li>
+<li _msttexthash="47345272" _msthash="397">培养项目管理和演示技巧</li>
+<li _msttexthash="61647183" _msthash="398">将技术知识与实际应用相结合</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="6157333" _msthash="399">描述</h4><a id="user-content-description-4" class="anchor" aria-label="永久链接：描述" href="#description-4" _mstaria-label="480597" _msthash="400"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="299194220" _msthash="401">学生将完成并展示他们为期一学期的项目，展示他们对课程材料的理解和应用。</p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12128493" _msthash="402">详细内容</h4><a id="user-content-detailed-content-4" class="anchor" aria-label="永久链接：详细内容" href="#detailed-content-4" _mstaria-label="628043" _msthash="403"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="162515912" _msthash="404"><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/week14_ai_future.md" _istranslated="1"><strong _istranslated="1">第 14 周：</strong>学期项目的最终开发、测试和完善</a> （obèrt）</li>
+<li><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/modules/oh_noes_404.md" _msttexthash="88491936" _msthash="405"><strong _istranslated="1">第 15 周：</strong>最终项目演示和课程总结</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto" _msttexthash="14080157" _msthash="406">反思问题</h4><a id="user-content-reflection-questions-4" class="anchor" aria-label="永久链接：反思问题" href="#reflection-questions-4" _mstaria-label="831259" _msthash="407"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="116443457" _msthash="408">如何结合 AI 技术来解决复杂的现实问题？</li>
+<li _msttexthash="114075754" _msthash="409">部署 AI 解决方案时有哪些道德注意事项？</li>
+<li _msttexthash="127360337" _msthash="410">随着 AI 的未来发展，您的项目将如何发展？</li>
+<li _msttexthash="234092248" _msthash="411">您在项目中面临的最重大挑战是什么，您是如何克服这些挑战的？</li>
+<li _msttexthash="157474382" _msthash="412">您的项目如何为更广泛的 AI 或其应用领域做出贡献？</li>
+<li _msttexthash="182134290" _msthash="413">如果大规模实施，您的项目会产生哪些潜在的社会影响？</li>
+<li _msttexthash="140398102" _msthash="414">该课程的跨学科性质如何影响您的项目设计？</li>
+<li _msttexthash="154773021" _msthash="415">您认为 AI 开发的哪些方面最令人惊讶或违反直觉？</li>
+<li _msttexthash="104791544" _msthash="416">这个项目如何改变了您对 AI 未来的看法？</li>
+<li _msttexthash="215732920" _msthash="417">作为您项目的下一步，您建议进行哪些进一步的研究或开发？</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="17243226" _msthash="418">分级和项目</h2><a id="user-content-grading-and-projects" class="anchor" aria-label="永久链接： 评分和项目" href="#grading-and-projects" _mstaria-label="765011" _msthash="419"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="24856000" _msthash="420">班级参与度：20%</li>
+<li _msttexthash="22537164" _msthash="421">每周测验：30%</li>
+<li _msttexthash="24483485" _msthash="422">4 个小项目：30%</li>
+<li _msttexthash="42647137" _msthash="423">1 个最终主要项目：20%</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="13000182" _msthash="424">小型项目</h3><a id="user-content-mini-projects" class="anchor" aria-label="永久链接： Mini-Projects" href="#mini-projects" _mstaria-label="535561" _msthash="425"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li _msttexthash="56667728" _msthash="426">OpenAI API 函数调用聊天应用</li>
+<li _msttexthash="60843497" _msthash="427">Huggingface 的嵌入和可解释性</li>
+<li _msttexthash="45788561" _msthash="428">使用 Langchain 的 RAG 应用程序</li>
+<li _msttexthash="28276534" _msthash="429">自主多智能体模拟</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="32087198" _msthash="430">最终项目提交要求</h3><a id="user-content-final-project-submission-requirements" class="anchor" aria-label="永久链接： 最终项目提交要求" href="#final-project-submission-requirements" _mstaria-label="1717976" _msthash="431"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="284061557" _msthash="432">一个原创的跨学科研究项目，应用了 4 个小项目中涵盖的至少一项关键技术。</p>
+<p dir="auto" _msttexthash="813652086" _msthash="433">根据官方的 Kenyon 2024 考试周时间表，最终项目将于 2024 年 12 月 18 日星期三下午 6：30 截止。您可以要求延期至周五中午，但不能迟于。</p>
+<ol dir="auto">
+<li _msttexthash="279987136" _msthash="434">请将以下 2 个部分通过电子邮件发送给我，以便为您的项目进行评分：</li>
+</ol>
+<ul dir="auto">
+<li _msttexthash="127584678" _msthash="435">您仔细校对的 *.ppt 海报（MS PowerPoint 格式不是 PDF）</li>
+<li _msttexthash="278179421" _msthash="436">您的代码（用于验证原创性/抄袭检查）（例如 colab 笔记本或 github 存储库）</li>
+<li _msttexthash="373571003" _msthash="437">成功运行和测试程序所需的任何数据（例如 SML 的 *.csv 结构化表或 RAG 的 *.pdf 非结构化文档）</li>
+</ul>
+<ol start="2" dir="auto">
+<li _msttexthash="111260656" _msthash="438">如果您的代码基于众多代理教程/示例之一：</li>
+</ol>
+<ul dir="auto">
+<li _msttexthash="39292188" _msthash="439">在您的参考文献中引用</li>
+<li _msttexthash="663823706" _msthash="440">在您的海报中解释这一点，并解释您如何修改、扩展或以其他方式自定义它（例如，独特的数据集、提示、代理、工具等）</li>
+</ul>
+<ol start="3" dir="auto">
+<li>
+<p dir="auto" _msttexthash="361065848" _msthash="441">如果您使用 AI 帮助撰写海报，请注意，为了提高透明度（请勿让 AI 为您撰写海报）</p>
+</li>
+<li>
+<p dir="auto" _msttexthash="489063666" _msthash="442">请对 Moodle.kenyon.edu 进行最终检查，以确保您的所有成绩、测验、演示文稿等都已准确记录。</p>
+</li>
+</ol>
+<p dir="auto" _msttexthash="170259726" _msthash="443">有关详细的项目描述和评分标准，请参阅各个模块文件。</p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto" _msttexthash="122954416" _msthash="444">IPHS200：Programming Humanity Exercises （英文）</h1><a id="user-content-iphs200-programming-humanity-exercises" class="anchor" aria-label="永久链接： IPHS200： Programming Humanity Exercises （英文）" href="#iphs200-programming-humanity-exercises" _mstaria-label="1757314" _msthash="445"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="17929587" _msthash="446">历时情感分析</h2><a id="user-content-diachronic-sentiment-analysis" class="anchor" aria-label="永久链接： 历时情感分析" href="#diachronic-sentiment-analysis" _mstaria-label="1248923" _msthash="447"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/code/notebooks/sentimentarcs_supersimplified_20241210.ipynb" _msttexthash="102955632" _msthash="448">SentimentArcs 简化版（2024 年 12 月 10 日）</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12261821" _msthash="449">主题建模</h2><a id="user-content-topic-modeling" class="anchor" aria-label="永久链接： 主题建模" href="#topic-modeling" _mstaria-label="544700" _msthash="450"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="946402262" _msthash="451">注意：请务必：（a） 使用您的非 Kenyon gmail.com 帐户创建一个 Kaggle 帐户（如果您还没有），（b） [复制和编辑] 以制作您自己的个人副本。</p>
+<ul dir="auto">
+<li><a href="https://www.kaggle.com/code/asadozzaman/topic-modeling-in-nlp-with-abc-news-sample" rel="nofollow" _msttexthash="60207615" _msthash="452">主题建模（2024 年 10 月 30 日）</a>
+<ul dir="auto">
+<li _msttexthash="59383324" _msthash="453">（轻微编辑/修复）<a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/code/notebooks/nlp_Topic_Modeling_in_NLP_with_ABC_news_sample_20241110.ipynb" _istranslated="1">Colab</a> 餐厅</li>
+<li _msttexthash="69612855" _msthash="454">（轻微编辑/修复）<a href="/jon-chun/GenAI-Multi-Agent-Networks-and-Digital-Twins/blob/main/code/notebooks/nlp_Topic_Modeling_in_NLP_with_ABC_news_sample_20241111.ipynb" _istranslated="1">带按钮的 Colab</a></li>
+</ul>
+</li>
+</ul>
+</article></div>
